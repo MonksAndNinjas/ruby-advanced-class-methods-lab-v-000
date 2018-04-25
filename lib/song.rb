@@ -35,6 +35,7 @@ class Song
       if song == name
         name
       end
+    end
   end
 
 
