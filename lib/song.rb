@@ -34,7 +34,7 @@ class Song
     if @@all.include?(name)
       @@all.each do |song|
         if song === name
-          song
+          return song
         end
       end
     end
